@@ -11,15 +11,12 @@ public class Main {
 
         int sumResult = Calculator.sum(x, y);
         ConsolePrinter.printResult("Summa: ", " + ", sumResult, x, y);
-        //System.out.println("Summa: " + x + " + " + y + " = " + sumResult);
 
         int multiplResult = Calculator.multiplication(x, y);
         ConsolePrinter.printResult("Multiplication: ", " * ", multiplResult, x, y);
-        //System.out.println("Summa: " + x + " * " + y + " = " + multiplResult);
 
         int substrResult = Calculator.subtract(x, y);
         ConsolePrinter.printResult("Substraction: ", " - ", substrResult, x, y);
-        //System.out.println("Summa: " + x + " - " + y + " = " + substrResult);
 
     }
 }
